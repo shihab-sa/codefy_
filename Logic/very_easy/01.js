@@ -51,11 +51,36 @@ let paires = [
   [false, true],
 ];
 
+//  ================== for Loop 🌳
+/*
+// For Loop : 
 for (let i = 0; i < paires.length; i++) {
   let x = paires[i][0];
   let y = paires[i][1];
   console.log(and2(x, y));
 }
+*/
+
+//  ================== while Loop 🌳
+/*
+let i = 0;
+while (i < paires.length) {
+  let x = paires[i][0];
+  let y = paires[i][1];
+  console.log(and2(x, y));
+  i++;
+}
+*/
+
+//  ================== do while Loop 🌳
+let i = 0;
+
+do {
+  let x = paires[i][0];
+  let y = paires[i][1];
+  console.log(and2(x, y));
+  i++;
+} while (i < paires.length);
 
 function and2(a, b) {
   return a && b;
