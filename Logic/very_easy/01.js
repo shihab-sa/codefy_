@@ -85,3 +85,14 @@ do {
 function and2(a, b) {
   return a && b;
 }
+
+//  ================== while Loop 🌳
+
+function and3(a, b) {
+  let value = [a, b];
+  for (let i = 0; i < value.length; i++) {
+    return value[0] && value[1];
+  }
+}
+
+console.log(and3(true, true));
