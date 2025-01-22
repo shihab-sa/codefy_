@@ -25,11 +25,7 @@
 // If you're really stuck, unlock solutions in the Solutions tab.
 
 function checkEquality(a, b) {
-  if (typeof a !== typeof b) {
-    return "false";
-  } else if (typeof a === typeof b) {
-    return "true";
-  }
+  return typeof a === typeof b;
 }
 
 console.log(checkEquality(1, true));

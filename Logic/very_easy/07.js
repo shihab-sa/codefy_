@@ -13,14 +13,7 @@
 // Return true or false.
 // Some countries have a slightly higher drinking age, but for the purposes of this challenge, it will be 18.
 
-function shouldServeDrinks(age, bol) {
-  if (bol === true) {
-    if (age >= 18) return "false";
-    else if (age < 30) return "false";
-  } else if (bol === false) {
-    return age >= 18;
-  }
-}
+function shouldServeDrinks(age, bol) {}
 
 console.log(shouldServeDrinks(17, true)); //➞ false
 console.log(shouldServeDrinks(19, false)); // ➞ true
